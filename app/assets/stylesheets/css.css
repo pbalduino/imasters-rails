@@ -1,0 +1,12 @@
+table.zebra {
+  border: 0 solid white;
+  background-color: #fefeff;
+}
+
+table.zebra tr.even {
+  background-color: #fefeff;
+}
+
+table.zebra tr.odd {
+  background-color: #e5e5ff;
+}

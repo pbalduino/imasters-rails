@@ -1,0 +1,16 @@
+// Exemplo de código usando SCSS
+
+$basecolor: #fefeff;
+
+table.zebra {
+	border: 0 solid white;
+	background-color: $basecolor;
+
+	tr.even {
+		background-color: $basecolor;
+	}
+
+	tr.odd {
+		background-color: darken($basecolor, 5%)
+	}
+}
