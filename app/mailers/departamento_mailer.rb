@@ -1,5 +1,5 @@
 class DepartamentoMailer < ActionMailer::Base
-  default from: "'Relatorio de departamentos - Rogus' <pbalduino@gmail.com>"
+  default from: "'Relatorio de departamentos - Rogus' <seu_email@provedor.com>"
 
   def enviar_relatorio(email)
   	@departamentos = Departamento.includes(:funcionarios)
